@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #121212;
+    overflow-x: hidden;
+    width: 100dvw;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: auto;
+    }
+}

@@ -1,0 +1,56 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+.footer__title {
+    font-size: 2rem;
+}
+
+.footer__text {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer__socials--item {
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer__socials--item:hover {
+    transform: translateY(-20%);
+}
+
+.item-1 a:hover {
+    color: #3b5998;
+}
+
+.item-2 a:hover {
+    color: #e84b59;
+}
+
+.item-3 a:hover {
+    color: #55acee;
+}
+
+.item-4 a:hover {
+    color: #ff0000;
+}
+
+.item-5 a:hover {
+    color: #0a66c2;
+}

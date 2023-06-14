@@ -1,0 +1,200 @@
+/* About Us Page */
+
+.about-us__container {
+    height: 61vh;
+}
+
+.about-us__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1440px;
+    margin-block: 3rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.about-us__photo-section {
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+}
+
+.about-us__photo-section img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.about-us__title {
+    margin-block-end: 1rem;
+    font-size: 2rem;
+}
+
+.about-us__subtitle {
+    margin-block-end: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.about-us__btn {
+    border: 1px solid #121212;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to right, #121212 50%, #f5f5f5 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 1s ease;
+    color: #f5f5f5;
+}
+
+.about-us__btn:hover {
+    color: #121212;
+}
+
+@media (max-width: 992px) {
+    .about-us__container {
+        height: auto;
+    }
+
+    .about-us__section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-us__photo-section {
+        order: 2;
+    }
+
+    .about-us__text {
+        align-items: center;
+        padding-inline: 3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us__photo-section img {
+        width: 90%;
+    }
+
+    .about-us__text {
+        padding-inline: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .about-us__photo-section img {
+        width: 100%;
+    }
+
+    .about-us__text {
+        padding-inline: 1rem;
+    }
+}
+
+/* Services Page */
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 61vh;
+    margin: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 300px;
+    width: 100%;
+    padding-block: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    color: #121212;
+}
+
+.card__title {
+    font-size: 1.25rem;
+}
+
+.card__price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card__separator {
+    width: 5rem;
+    height: 6px;
+    margin-block: 1rem;
+    margin-inline: auto;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.card__details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.check {
+    color: green;
+}
+
+.times {
+    color: red;
+}
+
+.times ~ p {
+    text-decoration: line-through;
+    font-weight: 300;
+}
+
+.card__button {
+    border: 1px solid #121212;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to right, #121212 50%, #f5f5f5 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 1s ease;
+    color: #f5f5f5;
+}
+
+.card__button:hover {
+    color: #121212;
+}
+
+@media (max-width: 900px) {
+    .card__container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card {
+        max-width: 350px;
+    }
+}
+
+/* Page Not Found */
+
+.error__container {
+    display: grid;
+    place-items: center;
+    height: 64vh;
+}
+
+.error__container--title {
+    font-size: 3rem;
+    text-align: center;
+}

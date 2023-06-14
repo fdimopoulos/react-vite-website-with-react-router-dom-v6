@@ -1,0 +1,111 @@
+.testimonials-container {
+    position: relative;
+    max-width: 1440px;
+    margin-block: 3rem;
+    margin-inline: auto;
+    padding: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials {
+    margin-inline: 1rem;
+}
+
+.testimonials__title {
+    margin-block: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.testimonials__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials__image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-block: 1rem;
+    margin-inline: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials__content--description {
+    max-width: 680px;
+    margin-inline: auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+.testimonials__quote {
+    font-size: 2rem;
+}
+
+.testimonials__content--name {
+    font-size: 1.125rem;
+}
+
+.testimonials__content--job {
+    margin-block-end: 3rem;
+}
+
+.image-swiper-button-prev {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.image-swiper-button-next {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.swiper-button {
+    display: flex;
+    position: absolute;
+    top: calc(50% + 3rem);
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.swiper-button:hover {
+    opacity: 1;
+}
+
+.swiper-button svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.image-swiper-button-prev {
+    left: 5px;
+}
+
+.image-swiper-button-next {
+    right: 5px;
+}
+
+@media (max-width: 767px) {
+    .testimonials__title {
+        font-size: 1.875rem;
+    }
+
+    .testimonials__content--description {
+        margin-inline: 1rem;
+        text-align: center;
+    }
+
+    .image-swiper-button-prev,
+    .image-swiper-button-next {
+        display: none;
+    }
+}
