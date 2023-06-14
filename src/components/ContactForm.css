@@ -23,6 +23,10 @@ input.input-error {
     margin-top: 0.75rem;
 }
 
+.form__container {
+    margin-inline: 1rem;
+}
+
 form {
     margin-inline: auto;
     margin-block: 2.5rem;
@@ -91,4 +95,10 @@ input::placeholder {
 
 .form__button:hover {
     color: var(--text);
+}
+
+@media (max-width: 500px) {
+    form {
+        padding: 1rem;
+    }
 }

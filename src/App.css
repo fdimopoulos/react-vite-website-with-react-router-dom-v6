@@ -2,6 +2,7 @@
 
 .about-us__container {
     height: 61vh;
+    margin-inline: 1rem;
 }
 
 .about-us__section {
