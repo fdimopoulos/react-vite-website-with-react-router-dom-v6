@@ -94,6 +94,7 @@ input::placeholder {
 }
 
 .form__button:hover {
+    background-position: right bottom;
     color: var(--text);
 }
 

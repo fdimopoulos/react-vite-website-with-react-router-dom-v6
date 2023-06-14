@@ -16,7 +16,10 @@ const Hero = () => {
                         delectus dolores autem quaerat facere minus quibusdam
                         itaque!
                     </p>
-                    <button onClick={() => navigate("/aboutUs")}>
+                    <button
+                        className="hero__button"
+                        onClick={() => navigate("/aboutUs")}
+                    >
                         Learn More
                     </button>
                 </div>

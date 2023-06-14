@@ -36,7 +36,7 @@
     font-size: 1.125rem;
 }
 
-button {
+.hero__button {
     width: 200px;
     margin-block-start: 1rem;
     padding: 0.625rem 1rem;
@@ -52,7 +52,7 @@ button {
     transition: all 1s ease;
 }
 
-button:hover {
+.hero__button:hover {
     background-position: right bottom;
     background-color: transparent;
     color: #f5f5f5;
