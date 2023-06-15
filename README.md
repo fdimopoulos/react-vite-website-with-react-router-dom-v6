@@ -8,6 +8,6 @@
 
 1. react-router-dom v6
 2. react-icons
-3. swiper.js (touch slider)
+3. swiper.js (touch slider for testimonials section)
 4. formik (form library)
 5. yup (JavaScript object schema validator)
