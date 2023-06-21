@@ -20,7 +20,7 @@ input.input-error {
 .form__title {
     color: var(--text);
     text-align: center;
-    margin-top: 0.75rem;
+    margin-top: 0.7rem;
 }
 
 .form__container {
@@ -30,7 +30,7 @@ input.input-error {
 form {
     margin-inline: auto;
     margin-block: 2.5rem;
-    padding: 1rem 1.5rem;
+    padding: 1.25rem 1.5rem;
     max-width: 450px;
     border-radius: 1rem;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
