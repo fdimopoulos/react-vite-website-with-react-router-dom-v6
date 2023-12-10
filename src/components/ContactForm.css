@@ -20,7 +20,7 @@ input.input-error {
 .form__title {
     color: var(--text);
     text-align: center;
-    margin-top: 0.7rem;
+    margin-top: 0.75rem;
 }
 
 .form__container {
