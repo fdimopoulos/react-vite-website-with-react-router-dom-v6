@@ -8,6 +8,9 @@ const Services = () => {
         <>
             <Navbar />
             <section>
+                <h2 className="services__title">
+                    Pick the plan that's right for you
+                </h2>
                 <div class="card__container">
                     <div class="card">
                         <h3 class="card__title">Basic</h3>

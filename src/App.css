@@ -110,13 +110,18 @@
 
 /* Services Page */
 
+.services__title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .card__container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     height: 61vh;
-    margin: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 .card {
