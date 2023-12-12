@@ -1,0 +1,91 @@
+{
+    "plans": [
+        {
+            "id": "1",
+            "title": "Basic",
+            "price": 1.499,
+            "description_1": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_2": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_3": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            },
+            "description_4": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            },
+            "description_5": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            },
+            "description_6": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            }
+        },
+        {
+            "id": "2",
+            "title": "Advanced",
+            "price": 1.999,
+            "description_1": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_2": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_3": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_4": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_5": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            },
+            "description_6": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": false
+            }
+        },
+        {
+            "id": "3",
+            "title": "Premium",
+            "price": 2.999,
+            "description_1": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_2": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_3": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_4": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_5": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            },
+            "description_6": {
+                "description_title": "Lorem ipsum dolor sit amet",
+                "checked": true
+            }
+        }
+    ]
+}
