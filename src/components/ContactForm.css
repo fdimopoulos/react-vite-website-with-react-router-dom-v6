@@ -13,7 +13,8 @@
     color: var(--error);
 }
 
-input.input-error {
+input.input-error,
+textarea.input-error {
     border-color: var(--error);
 }
 
