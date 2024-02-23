@@ -14,7 +14,7 @@ const AboutUs = () => {
                     <div className="about-us__photo-section">
                         <img
                             className="about-us-image"
-                            src="./about_us.jpg"
+                            src="./about_us.webp"
                             alt="/"
                         />
                     </div>

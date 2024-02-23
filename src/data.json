@@ -2,25 +2,25 @@
     "reviewers": [
         {
             "id": 1,
-            "image": "./testimonial_1.jpg",
+            "image": "./testimonial_1.webp",
             "name": "Layne Staley",
             "position": "Software Developer"
         },
         {
             "id": 2,
-            "image": "./testimonial_2.jpg",
+            "image": "./testimonial_2.webp",
             "name": "Jessicca Barnes",
             "position": "HR Manager"
         },
         {
             "id": 3,
-            "image": "./testimonial_3.jpg",
+            "image": "./testimonial_3.webp",
             "name": "Gemma Simmons",
             "position": "Web Designer"
         },
         {
             "id": 4,
-            "image": "./testimonial_4.jpg",
+            "image": "./testimonial_4.webp",
             "name": "Denzel Johnson",
             "position": "DevOps Engineer"
         }
