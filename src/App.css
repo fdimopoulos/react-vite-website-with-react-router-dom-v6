@@ -46,6 +46,10 @@
     font-size: 1.125rem;
 }
 
+.about-us__details {
+    max-width: 61ch;
+}
+
 .about-us__btn {
     width: 200px;
     margin-block-start: 1rem;
