@@ -6,8 +6,10 @@ const Contact = () => {
     return (
         <>
             <Navbar />
-            <ContactForm />
-            <Footer />
+            <div className="contact__wrapper">
+                <ContactForm />
+                <Footer />
+            </div>
         </>
     );
 };

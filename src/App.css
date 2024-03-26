@@ -1,7 +1,18 @@
+/* Contact Page */
+.contact__wrapper {
+    min-height: calc(100vh - 10vh);
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
 /* About Us Page */
+.about-us__wrapper {
+    min-height: calc(100vh - 10vh);
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
 
 .about-us__container {
-    height: 61vh;
     margin-inline: 1rem;
 }
 
@@ -113,6 +124,11 @@
 }
 
 /* Services Page */
+.services__wrapper {
+    min-height: calc(100vh - 10vh);
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
 
 .services__title {
     text-align: center;

@@ -7,6 +7,7 @@
     max-width: 1440px;
     margin-inline: auto;
     padding: 1rem;
+    border: 1px solid #0a66c2;
 }
 
 .footer__title {
