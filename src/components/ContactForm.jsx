@@ -27,7 +27,7 @@ function ContactForm() {
                         id="username"
                         name="username"
                         type="text"
-                        placeholder="Enter your username..."
+                        placeholder="Username"
                         value={values.username}
                         onChange={handleChange}
                         onBlur={handleBlur}
@@ -45,7 +45,7 @@ function ContactForm() {
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="Enter your email..."
+                        placeholder="example@example.com"
                         value={values.email}
                         onChange={handleChange}
                         onBlur={handleBlur}
