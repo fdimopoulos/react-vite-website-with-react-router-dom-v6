@@ -1,7 +1,6 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./Testimonials.css";
@@ -24,7 +23,7 @@ const Testimonials = () => {
                 </div>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    // spaceBetween={240}
+                    speed={500}
                     slidesPerView={1}
                     navigation={{
                         nextEl: ".image-swiper-button-next",

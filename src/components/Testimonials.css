@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.testimonials__card {
+    transition: all 0.3s;
+}
+
 .testimonials__content {
     display: flex;
     flex-direction: column;
