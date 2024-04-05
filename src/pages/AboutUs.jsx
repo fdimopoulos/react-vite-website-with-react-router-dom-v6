@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
     const navigate = useNavigate();
@@ -19,7 +20,12 @@ const AboutUs = () => {
                                 alt="/"
                             />
                         </div>
-                        <div className="about-us__text">
+                        <motion.div
+                            className="about-us__text"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 2 }}
+                        >
                             <h2 className="about-us__title">
                                 You should remember your trip to Iceland as the
                                 most epic trip of your life.
@@ -42,7 +48,7 @@ const AboutUs = () => {
                             >
                                 Plan Your Trip
                             </button>
-                        </div>
+                        </motion.div>
                     </div>
                 </section>
                 <Footer />

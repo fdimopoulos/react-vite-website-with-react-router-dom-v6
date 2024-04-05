@@ -1,13 +1,25 @@
 import "./Hero.css";
 import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 const Hero = () => {
     const navigate = useNavigate();
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
 
     return (
         <>
             <section className="hero__container">
-                <div className="hero__container-text">
+                <motion.div
+                    className="hero__container-text"
+                    ref={ref}
+                    style={{
+                        transform: isInView ? "none" : "translateX(-300px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 1.5s",
+                    }}
+                >
                     <h1 className="hero__container-text__title">
                         Welcome to Iceland
                     </h1>
@@ -24,7 +36,7 @@ const Hero = () => {
                     >
                         Learn More
                     </button>
-                </div>
+                </motion.div>
             </section>
         </>
     );
