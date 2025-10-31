@@ -12,7 +12,7 @@ function App() {
             <Hero />
             <PhotoSection />
             <Testimonials />
-            <Footer />;
+            <Footer />
             <ScrollToTopButton />
         </>
     );
