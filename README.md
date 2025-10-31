@@ -11,3 +11,4 @@
 3. swiper.js (touch slider for testimonials section)
 4. formik (form library)
 5. yup (JavaScript object schema validator)
+6. framer-motion (animation library)
