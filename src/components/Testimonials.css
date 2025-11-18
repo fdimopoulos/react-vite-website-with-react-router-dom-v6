@@ -55,7 +55,7 @@
 }
 
 .testimonials__content--job {
-    margin-block-end: 3rem;
+    margin-block-end: 4rem;
 }
 
 .image-swiper-button-prev {
@@ -96,6 +96,11 @@
 
 .image-swiper-button-next {
     right: 5px;
+}
+
+.swiper-pagination-bullet {
+    width: 24px;
+    height: 24px;
 }
 
 @media (max-width: 767px) {
